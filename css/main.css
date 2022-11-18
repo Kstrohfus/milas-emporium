@@ -45,6 +45,16 @@ nav ul li a {
     padding: 10px;
     font-weight: 900;
 }
+
+img {
+    border-radius: 5px;
+    width: 200px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
 /**Socials**/
 
 /**Footer**/
@@ -52,22 +62,5 @@ footer {
     text-align: center;
 }
 
-/**Media**/
-@media (min-width: 576px) {
-    ...;
-}
+/*Media*
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    ...;
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    ...;
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    ...;
-}
