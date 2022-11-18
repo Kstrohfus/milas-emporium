@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: bisque;
+.container {
+    background-color: rgba(184, 183, 181, 0);
     font-family: "Nunito", sans-serif;
-    margin: 0px;
-    padding: 0px;
+    width: 100%;
+    padding: 10px;
 }
 
 header {
@@ -25,8 +21,9 @@ header h1 {
     color: whitesmoke;
     font-size: 38px;
     text-transform: lowercase;
+    text-decoration: none;
 }
-
+/**Navigation**/
 nav {
     margin: 0;
     padding: 10px 0 0 0;
@@ -34,6 +31,10 @@ nav {
 
 nav ul li {
     display: inline;
+}
+
+nav ul li a:hover {
+    color: rgb(158, 3, 3);
 }
 
 nav ul li a {
@@ -44,7 +45,29 @@ nav ul li a {
     padding: 10px;
     font-weight: 900;
 }
+/**Socials**/
 
+/**Footer**/
 footer {
     text-align: center;
+}
+
+/**Media**/
+@media (min-width: 576px) {
+    ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    ...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...;
 }
