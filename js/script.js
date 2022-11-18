@@ -46,3 +46,13 @@ shirtThree.addEventListener("mouseover", function () {
 hoodThree.addEventListener("mouseover", function () {
   hoodThree.classList.add("hide");
 });
+
+function returnThem () {
+    const dressOff = document.querySelector(".dressOne")
+
+    if (dressOne === classList("hide")) {
+       
+        dressOff.classList.remove("hide")
+    }
+    returnThem()
+}
