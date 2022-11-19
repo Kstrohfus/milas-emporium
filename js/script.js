@@ -9,50 +9,76 @@ const hoodTwo = document.querySelector(".hoodTwo")
 const hoodThree = document.querySelector(".hoodThree")
 
 dressOne.addEventListener("mouseover", function () {
-  dressOne.classList.add("hide");
+  if (dressOne.classList.contains("show")) {
+    dressOne.classList.remove("show");
+  } else {
+    dressOne.classList.add("show");
+  }
 });
 
 shirtOne.addEventListener("mouseover", function () {
-  shirtOne.classList.add("hide");
+  if (shirtOne.classList.contains("show")) {
+    shirtOne.classList.remove("show");
+  } else {
+    shirtOne.classList.add("show");
+  }
 });
 
 hoodOne.addEventListener("mouseover", function () {
-  hoodOne.classList.add("hide");
+  if (hoodOne.classList.contains("show")) {
+    hoodOne.classList.remove("show");
+  } else {
+    hoodOne.classList.add("show");
+  }
 });
 
 //Second
 dressTwo.addEventListener("mouseover", function () {
-  dressTwo.classList.add("hide");
+  if (dressTwo.classList.contains("show")) {
+    dressTwo.classList.remove("show");
+  } else {
+    dressTwo.classList.add("show");
+  }
 });
 
 shirtTwo.addEventListener("mouseover", function () {
-  shirtTwo.classList.add("hide");
+  if (shirtTwo.classList.contains("show")) {
+    shirtTwo.classList.remove("show");
+  } else {
+    shirtTwo.classList.add("show");
+  }
 });
 
 hoodTwo.addEventListener("mouseover", function () {
-  hoodTwo.classList.add("hide");
+  if (hoodTwo.classList.contains("show")) {
+    hoodTwo.classList.remove("show");
+  } else {
+    hoodTwo.classList.add("show");
+  }
 });
 
 //Third
 
 dressThree.addEventListener("mouseover", function () {
-  dressThree.classList.add("hide");
+  if (dressThree.classList.contains("show")) {
+    dressThree.classList.remove("show");
+  } else {
+    dressThree.classList.add("show");
+  }
 });
 
 shirtThree.addEventListener("mouseover", function () {
-  shirtThree.classList.add("hide");
+  if (shirtThree.classList.contains("show")) {
+    shirtThree.classList.remove("show");
+  } else {
+    shirtThree.classList.add("show");
+  }
 });
 
 hoodThree.addEventListener("mouseover", function () {
-  hoodThree.classList.add("hide");
+  if (hoodThree.classList.contains("show")) {
+    hoodThree.classList.remove("show");
+  } else {
+    hoodThree.classList.add("show");
+  }
 });
-
-function returnThem () {
-    const dressOff = document.querySelector(".dressOne")
-
-    if (dressOne === classList("hide")) {
-       
-        dressOff.classList.remove("hide")
-    }
-    returnThem()
-}

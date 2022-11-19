@@ -40,9 +40,7 @@ nav ul li a {
     color: #fff;
     padding: 10px;
     font-weight: 900;
-    
 }
-
 
 nav ul li a:hover {
     color: rgb(158, 3, 3);
@@ -71,6 +69,7 @@ img.shirtThree{
     border: rgb(0, 255, 145) 5px solid;
     margin: 30px 0;
 }
+
 img.hoodOne,
 img.hoodTwo,
 img.hoodThree {
@@ -78,11 +77,13 @@ img.hoodThree {
     margin: 30px 0;
 }
 
+.item {
+opacity: 0;
+}
 
-
-
-.hide {
-    visibility: hidden;
+.show {
+  opacity: 1;
+  transition: opacity 2s ease-in;
 }
 
 /**Socials**/
